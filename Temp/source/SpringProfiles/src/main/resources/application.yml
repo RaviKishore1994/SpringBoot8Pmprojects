@@ -1,0 +1,18 @@
+spring: 
+ profiles: 
+  active: test
+server: 
+ port: 6767
+---
+spring: 
+ profiles: dev
+sample:
+ app: 
+  name: Dev Application Properties
+---
+spring: 
+ profiles: test
+sample:
+ app:
+  name: Test Application Properties
+  
